@@ -82,4 +82,14 @@ The web has many articles on threads and there are books available on threads. T
 
 **Grading**
 
-The written portions will be graded subjectively based on completeness and quality. The code will be graded based on points allocated for each key part of the processing as determined by the instructor. The output will be graded based on expected results for the input programs. A script will be used to automatically compile your program, execute it, and compare the output to the expected output. Therefore, ensure your program compiles and executes successfully on the cs1 server (or csgrads1).
+The written portions will be graded subjectively based on completeness and quality. The code will be graded based on points allocated for each key part of the processing as determined by the instructor.
+
+The output will be graded based on expected results for the input programs. A script will be used to automatically compile your program, execute it, and compare the output to the expected output. For this reason, it is very important that your program compiles and executes successfully on the cs1 server (or csgrads1) as shown below:
+
+- Java:
+  - compile: `javac Project2.java`
+  - run: `java Project2`
+
+- C/C++:
+  - compile: `gcc project2.c -o project2` or `g++ project2.cpp -o project2`
+  - run: `project2`
